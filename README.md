@@ -1,4 +1,5 @@
 # exercice_processeur
+English Version
 
 This small project is an exercise (based on nothing existing, to test my knowledge) in Matlab, which includes:
 
@@ -20,7 +21,7 @@ A logisim model of this small processor, and in particular of the state machine,
 The codes have little interest in themselves, however you can use them freely if you find the use.
 
 
-
+Version Française
 
 Ce petit projet est un exercice (basé sur rien d'existant, pour tester mes connaissances) en Matlab, qui comprend:
 
