@@ -180,8 +180,10 @@ for i = 1:length(variables_demandees)
     end
 end
 
+adresses_instructions = find([code(:).direct] == 0);
+
 for i = 1:length(variables_demandees)
-    code(i).vecteur = variables(variables_demandees(i).id_var_code).adresse;
+    code(adresses_instructions(i)).vecteur = variables(variables_demandees(i).id_var_code).adresse;
 end
 
 for i = 1:nb_opcodes
